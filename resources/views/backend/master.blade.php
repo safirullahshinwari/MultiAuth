@@ -23,7 +23,7 @@
     <!-- preloader area end -->
     <!-- page container area start -->
     <div class="page-container">
-    <livewire:counter /> 
+        <livewire:counter />
         @include('backend.layouts.partials.sidebar')
 
         <!-- main content area start -->
