@@ -46,6 +46,9 @@
                         </div>
                         <div>this is another version code</div>
                         <div>this is div after a changes</div>
+                        <div>this div after version 3
+
+                        </div>
 
                         <form id="admin-logout-form" action="{{ route('logout') }}" method="POST"
                             style="display: none;">
