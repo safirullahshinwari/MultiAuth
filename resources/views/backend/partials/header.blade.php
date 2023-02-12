@@ -44,6 +44,7 @@
                       document.getElementById('admin-logout-form').submit()">LogOut</a>
                             <a class="dropdown-item" href="{{ route('profile.edit') }}">Profile</a>
                         </div>
+                        <div>this is another version code</div>
                         <form id="admin-logout-form" action="{{ route('logout') }}" method="POST"
                             style="display: none;">
                             @csrf
