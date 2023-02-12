@@ -45,6 +45,8 @@
                             <a class="dropdown-item" href="{{ route('profile.edit') }}">Profile</a>
                         </div>
                         <div>this is another version code</div>
+                        <div>this is div after a changes</div>
+
                         <form id="admin-logout-form" action="{{ route('logout') }}" method="POST"
                             style="display: none;">
                             @csrf
